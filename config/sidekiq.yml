@@ -1,0 +1,7 @@
+:concurrency: 5
+:queues:
+  - default
+  - critical
+  - low
+# :redis:
+#   url: 'redis://localhost:6379/0'

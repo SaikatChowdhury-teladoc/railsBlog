@@ -1,0 +1,8 @@
+print_articles:
+  cron: "*/10 * * * *"
+  class: "PrintArticlesWorker"
+  queue: default
+print_comments:
+  cron: "*/15 * * * *"
+  class: "PrintCommentsWorker"
+  queue: default
