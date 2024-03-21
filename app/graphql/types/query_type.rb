@@ -5,7 +5,7 @@ module Types
       argument :id, ID, required:true
     end
     def articles
-      Article.first
+      Article.all
     end
     def article(id:)
       Article.find_by(id: id)
